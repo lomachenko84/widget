@@ -1,21 +1,25 @@
-img {
-    width: 50px;
-    height: 35px;
-    opacity: 0.4;
-}
-.activ {
-    opacity: 1;
-}
-
 .button {
     color: #fff;
-    background-color: #5cb85c;
-    border-color: #4cae4c;
-    padding: 10px;
-    border-radius: 4px;
+    background-color: rgba(255, 0, 0, 0.636);
+    border-color: red;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: large;
+    font-weight: normal;
+    margin: 13px;
+    
 }
 input {
     
     padding: 10px;
     border-radius: 4px;   
+}
+.header{
+    color: #000;
+    margin: 0px;
+    height: 100%;
+    background-color: rgb(225, 225, 225);
+    padding: 15px;
+    font-size: large;
+    font-weight: normal;
 }
