@@ -1,0 +1,21 @@
+img {
+    width: 50px;
+    height: 35px;
+    opacity: 0.4;
+}
+.activ {
+    opacity: 1;
+}
+
+.button {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    padding: 10px;
+    border-radius: 4px;
+}
+input {
+    
+    padding: 10px;
+    border-radius: 4px;   
+}
