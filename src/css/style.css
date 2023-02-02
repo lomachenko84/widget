@@ -6,20 +6,32 @@
     border-radius: 8px;
     font-size: large;
     font-weight: normal;
-    margin: 13px;
-    
+    margin: auto;
+    display: block;
 }
-input {
-    
-    padding: 10px;
-    border-radius: 4px;   
+.widget {
+    margin: auto;
+    border-radius: 5px;
+    display: block;
+    width: 300px;
+    height: 120px;
+    border: black solid 1px;
 }
-.header{
-    color: #000;
-    margin: 0px;
-    height: 100%;
-    background-color: rgb(225, 225, 225);
-    padding: 15px;
+.title {
+    color: black;
+    border-color: black;
+    background-color: lightgray;
     font-size: large;
     font-weight: normal;
+    height: 40px;
+    text-indent: 4px;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 5px 5px 0px 0px;
+}
+.text {
+    color: #000;
+    text-align: left;
+    padding: 5px;
 }
