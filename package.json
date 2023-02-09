@@ -40,9 +40,10 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.6",
     "jest-dom": "^4.0.0",
     "jest-environment-jsdom": "^29.3.1",
-    "puppeteer": "^19.5.2"
+    "puppeteer": "^19.6.3"
   },
   "jest": {
     "testEnvironment": "jsdom"

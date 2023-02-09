@@ -6,17 +6,38 @@
     border-radius: 8px;
     font-size: large;
     font-weight: normal;
-    margin: auto;
+    margin: 10px auto auto;
     display: block;
 }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+    
+}
+
 .widget {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-150%);
     margin: auto;
     border-radius: 5px;
-    display: block;
+    display: none;
     width: 300px;
     height: 120px;
     border: black solid 1px;
+
+
 }
+
+.widget.widget_active {
+    display: block;
+
+}
+
 .title {
     color: black;
     border-color: black;
@@ -30,8 +51,37 @@
     box-sizing: border-box;
     border-radius: 5px 5px 0px 0px;
 }
+
 .text {
     color: #000;
     text-align: left;
     padding: 5px;
+
+}
+
+.cornerBlack {
+    border-color: black;
+    background-color: black;
+    width: 12px;
+    height: 12px;
+    margin: 28px auto auto;
+    display: block;
+    transform: rotate(45deg);
+
+}
+
+.cornerWhite {
+    background-color: white;
+    width: 12px;
+    height: 12px;
+    margin: 28px auto auto;
+    display: block;
+    transform: rotate(90deg);
+    border: 1px solid black;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+    box-sizing: border-box;
+}
+.field {
+    position: relative;
 }
